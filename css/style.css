@@ -1,0 +1,346 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Delius';
+    background: #1A2F23;
+}
+.contenedor-encabezado{
+    width: 100%;
+    height: 80px;
+    background: #2D4F3C;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0 0 20px 20px;
+    box-shadow: 0 10px 50px black;
+}
+
+.img-logo{
+    position: absolute;
+    width: 70px;
+    top: 50%;
+    left: 20px;
+    translate: 0 -50%;
+
+    transition: all 0.3s ease;
+}
+
+.img-logo:hover{
+    scale: 1.07;
+}
+
+.titulo-pagina{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: auto;
+    padding: 10px;
+    background: #1A2F23;
+    border-radius: 20px;
+    color: #F5F5DC;
+    transition: all 0.3s ease;
+    user-select: none;
+}
+
+.titulo-pagina:hover{
+    background: #F5F5DC;
+    color: #1A2F23;
+    scale: 1.05;
+}
+
+.contenedor-text-iniciar{
+    position: absolute;
+    top: 50%;
+    right:  20px;
+    translate: 0 -50%;
+    padding: 10px;
+    background: #C5A059;
+    border-radius: 20px;
+    user-select: none;
+    transition: all 0.7s ease;
+}
+
+.contenedor-text-iniciar:hover{
+    background: #000000;
+    color: #C5A059;
+    scale: 1.06;
+}
+
+.contenedor-text-iniciar:active{
+    transition: all 0.1s ease-out;
+    scale: 1;
+}
+
+.centrar_todo{
+    margin-top: 50px;
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.contenedor1{
+    width: 31%;
+    height: auto;
+    background: #2B2B2B;
+    box-shadow:  0 10px 10px black;
+    padding-bottom: 30px;
+    border-radius: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.contenedor2{
+    width: 33%;
+    height: auto;
+    background: #2B2B2B;
+    box-shadow:  0 10px 10px black;
+    padding-bottom: 30px;
+    border-radius: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.contenedor3{
+    width: 31%;
+    height: auto;
+    background: #2B2B2B;
+    box-shadow:  0 10px 10px black;
+    padding-bottom: 30px;
+    border-radius: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contenido1-contenedor1{
+    width: 97%;
+    height: auto;
+
+    background: #313B32;
+    border-radius: 20px;
+    padding: 10px 0 10px 0;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 10px 10px black;
+}
+
+.contenido2-contenedor1{
+    width: 97%;
+    height: auto;
+
+    background: #313B32;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 10px 0 10px 0;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 10px 10px black;
+}
+
+.contenido3-contenedor1{
+    width: 97%;
+    height: auto;
+
+    background: #313B32;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 10px 0 10px 0;
+
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 10px 10px black;
+}
+
+.contenido1-contenedor2{
+    width: 97%;
+    height: auto;
+
+    background: #313B32;
+    border-radius: 20px;
+    padding: 10px 0 10px 0;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 10px 10px black;
+}
+.contenido2-contenedor2{
+    width: 97%;
+    height: auto;
+
+    background: #313B32;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 10px 0 10px 0;
+
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 10px 10px black;
+}
+
+.contenido3-contenedor2{
+    width: 97%;
+    height: auto;
+
+    background: #313B32;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 10px 0 10px 0;
+
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 10px 10px black;
+}
+
+.contenido1-contenedor3{
+    width: 97%;
+    height: auto;
+
+    background: #313B32;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 10px 0 10px 0;
+
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 10px 10px black;
+}
+
+.contenido2-contenedor3{
+    width: 97%;
+    height: auto;
+
+    background: #313B32;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 10px 0 10px 0;
+
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 10px 10px black;
+}
+
+.contenido3-contenedor3{
+    width: 97%;
+    height: auto;
+
+    background: #313B32;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 10px 0 10px 0;
+
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 10px 10px black;
+}
+
+p{
+    width: 95%;
+    height: auto;
+    text-align: justify;
+    color: #D9C5B2;
+    font-size: 25px;
+}
+
+img{
+    width: 97%;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+img:hover{
+    scale: 1.01;
+}
+
+iframe{
+    width: 90%;
+    height: 200px;
+    border: none;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+iframe:hover{
+    scale: 1.02;
+}
+
+.contenedor-pie-pagina{
+    position: relative;
+    margin-top: 50px;
+    width: 100%;
+    height: 80px;
+    background: #2D4F3C;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px 20px 0 0;
+    box-shadow: 0 -10px 50px black;
+}
+
+
+
+.contenedor-contenido-pie1{
+    position: absolute;
+    left: 40px;
+    gap: 10px;
+    display: flex;
+}
+
+h3{
+    font-size: 20px;
+    margin: 5px;
+    padding: 5px;
+    background: #1A2F23;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+h3:hover{
+    scale: 1.05;
+}
+
+.contenedor-contenido-pie2{
+    position: absolute;
+    width: auto;
+    height: auto;
+    right: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.icono{
+    width: 70px;
+    transition: all 0.3s ease;
+}
+
+.icono:hover{
+    scale: 1.1;
+}
+
+.icono:active{
+    transition: all 0.1s ease-out;
+    scale: 1;
+    rotate: 20deg;
+}
+
